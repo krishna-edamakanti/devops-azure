@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "Fiserv-test"
-    storage_account_name = "fiservterraformcodeops"
-    container_name       = "tfsstatefile"
+    resource_group_name  = "rg-mywebapp"
+    storage_account_name = "test1993"
+    container_name       = "mycontainer"
     key                  = "dev.terraform.tfstate"
   }
 }
